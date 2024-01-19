@@ -1,3 +1,4 @@
+# posicao_torre.py
 import pygame
 
 class PosicaoTorre(pygame.sprite.Sprite):
