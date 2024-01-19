@@ -27,7 +27,7 @@ class Inimigo(pygame.sprite.Sprite):
         self.image = pygame.Surface((15, 15))
         self.image.fill((0, 0, 255))
         self.rect = self.image.get_rect(topleft=(random.randint(50, 750), 0))
-        self.velocidade = random.uniform(0.5, 1.5)  # Ajuste o intervalo conforme necessário
+        self.velocidade = 1
         
     def update(self):
         self.rect.y += self.velocidade
